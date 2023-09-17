@@ -1,0 +1,23 @@
+Intalación: 
+
+1. npm install cypress --save-dev (Cypress)
+2. npm install -g npx (NPX)
+3. npx cypress open (Iniciar APP)
+
+Instalación TAB
+npm install -D cypress-plugin-tab
+
+Referenciar todo archivo cypress con: 
+/// <reference types = "cypress" />
+
+Instalación plugin xpath
+npm install -D cypress path
+
+Página de pruebas:
+testingqarvn.com.es 
+
+Error modulo no encontrado
+npm install -D cypress-xpath
+
+Instalar pluggin cucumber
+npm install @badeball/cypress-cucumber-preprocessor --save -dev
