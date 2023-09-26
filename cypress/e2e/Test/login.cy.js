@@ -6,7 +6,7 @@ const user = '.login-container > .block.block-customer-login > .block-content > 
 const password = '.login-container > .block.block-customer-login > .block-content > #login-form > .fieldset > .password > .control > #pass';
 const inicioSesion = '.fieldset > .actions-toolbar > div.primary > #send2';
 const validacionSesionExitosa = '.dropdown-button > .js-fullname';
-describe("Login", () => {
+describe("Login succes", () => {
     it("test validar título", () =>{
         cy.visit("https://www.tiendamia.co/")
         cy.title().should('eq', 'Compra en USA y Recibe en Colombia')
